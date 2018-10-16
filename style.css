@@ -1,0 +1,78 @@
+/*
+ * Author:      Bhaskar S
+ * Date:        01/27/2018
+ * Description: CSS style for the Auto vehicle dealer-buyer Ethereum web application
+ */
+
+body {
+    font-family: 'Roboto', serif;
+}
+
+table {
+    border: 0px;
+    width: 50%;
+}
+
+tr {
+    margin: 5px;
+    width: 100%;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p, label {
+    margin: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+hr {
+    text-align: center;
+    width: 20%;
+}
+
+input {
+    border-radius: 4px;
+    font-size: 12px;
+    display: inline-block;
+}
+
+button {
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.centeralign {
+    text-align: center;
+}
+
+#title {
+    background-color: #f2d7d5;
+    border: 2px solid #c0392b;
+    height: 5%;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#events {
+    background-color: #fcf3cf;
+    border: 1px solid #f1c40f;
+    margin: 5px;
+    width:550px;
+    display:block;
+}
+#events hr {
+    color: #f1c40f;
+}
+#events p {
+    display: block;
+}

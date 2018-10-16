@@ -1,0 +1,21 @@
+{
+"port" : 3001,
+"accessToken" : "v2x0de9935a22ddb16337fa38d062b5b61beec83d15af3cf9f93d3fc2a2d9f6c874",
+"passPhrase" : "efy100-99=1",
+"txrp" : {
+ "walletId" : "5bc4bb85e59e7fad03ec704b340136f6",
+ "multiplerExponetial" : 10e5
+},
+"teth" : {
+ "walletId" : "",
+ "multiplerExponetial" : 10e18
+},
+"txlm" : {
+ "walletId" : "",
+ "multiplerExponetial" : 10e4
+},
+"tdash" : {
+ "walletId" : "",
+ "multiplerExponetial" : 10e8
+}
+}

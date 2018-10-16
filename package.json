@@ -1,0 +1,26 @@
+{
+  "name": "web3-app-hd",
+  "version": "1.0.0",
+  "description": "hd wallet",
+  "main": "node-app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abdul",
+  "license": "MIT",
+  "dependencies": {
+    "bip39": "^2.5.0",
+    "bitgo": "^4.38.0",
+    "eth-hd-wallet": "^0.3.0",
+    "ethereumjs-tx": "^1.3.4",
+    "ethereumjs-util": "^5.2.0",
+    "express": "^4.16.3",
+    "hdkey": "^1.0.0",
+    "hdwallet-accounts": "0.0.1",
+    "solc": "^0.4.24",
+    "tbtc-faucets": "^0.1.2",
+    "truffle-hdwallet-provider": "0.0.5",
+    "web3": "^1.0.0-beta.34",
+    "web3-eth-accounts": "^1.0.0-beta.34"
+  }
+}

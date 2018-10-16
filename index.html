@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset='UTF-8' />
+        <title>Bitgo API Interaction</title>
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div style="width: 600px;border: 25px solid green;padding: 10px;margin: 25px;margin-left: auto; margin-right: auto;">
+        <div id='title'>Bitgo API Interaction</div>
+        <br/>
+        <table>
+            <tr>
+                <td id='transfer'>
+                    <div>
+                        <div style="margin-left:10px; padding:10px 0 20px 10px">
+                        <select id="walletType" style="padding:2px">
+                              <option value="" selected="selected">Please select wallet type</option>
+                              <option value="txrp">RIPPLE (TXRP)</option>
+                              <option value="TETH">ETHER (TETH)</option>
+                              <option value="TXLM">Staller (TXLM)</option>
+                              <option value="tdash">DASH (TDASH)</option>
+                            </select>
+                        </div>
+                        <span  id="sucessMsg"></span>
+                        <p>Wallet Balance:</p><label id='walletBal' type='text'>0</label>
+                        <br />
+                        <p>To Address:</p><input id='toAddress' size=50 type='text' />
+                        <br />
+                        <p>Amount:</p><input id='amount' type='text' />
+                        <br />
+                        <br />
+                        <div class='centeralign' id='one'>
+                            <button id='transfer' onClick="transfer()">Send</button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div id='events'>
+                        <h3>Event Messages</h3>
+                        <hr />
+                        <br />
+                        <div id='evt_list'></div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        </div>
+    </body>
+    <script type="text/javascript" src="functions.js"></script>
+</html>
